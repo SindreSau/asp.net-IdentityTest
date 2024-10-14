@@ -17,4 +17,5 @@ public class ApplicationDbContext : IdentityDbContext
     }
 
     public DbSet<ApplicationUser> ApplicationUsers { get; set; }
+    public DbSet<Joke> Jokes { get; set; }
 }
